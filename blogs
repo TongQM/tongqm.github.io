@@ -1,4 +1,0 @@
- git clone https://github.com/plusjade/jekyll-bootstrap.git TongQM.github.com
- cd TongQM.github.com
- git remote set-url origin git@github.com:TongQM/TongQM.github.com.git
- git push origin master
