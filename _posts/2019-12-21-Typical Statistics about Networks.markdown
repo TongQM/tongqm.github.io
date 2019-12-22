@@ -3,7 +3,7 @@ layout: post
 title:  "Some Typical Statistics about Networks"
 date:   2019-12-21
 author: "miao"
-mathjax:true
+mathjax:  true
 ---
 
 
