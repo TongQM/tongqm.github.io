@@ -1,4 +1,13 @@
+---
+layout: post
+title:  "Some Typical Statistics about Networks"
+date:   2019-12-21
+author: "miao"
 mathjax:true
+---
+
+
+
 # Some Typical Statistics about Networks  
 记一些微观里图论分析常用的统计量
 ## Overall Statistics

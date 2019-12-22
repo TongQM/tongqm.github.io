@@ -1,8 +1,16 @@
+---
+layout: post
+title:  "Inventory Control Subject to Known Demand 1"
+date:   2019-12-21
+author: "miao"
 mathjax:true
-#Inventory Control Subject to Known Demand 1
-##Economic Order Quantity Model
+---
+
+
+# Inventory Control Subject to Known Demand 1
+## Economic Order Quantity Model
 This is the simplest model based on totally known constant demand rate on time. Though simple, it captures the essence of inventory control—tradeoff between lasting holding cost and one-off setup cost.
-####Notation
+#### Notation
 $K$, setup cost,
 $c$, unit cost,
 $i$, annual inventory holding cost rate,
