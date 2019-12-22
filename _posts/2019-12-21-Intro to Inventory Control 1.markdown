@@ -1,13 +1,14 @@
+mathjax:true
 #Inventory Control Subject to Known Demand 1
 ##Economic Order Quantity Model
 This is the simplest model based on totally known constant demand rate on time. Though simple, it captures the essence of inventory control—tradeoff between lasting holding cost and one-off setup cost.
 ####Notation
-$$K$$, setup cost,
-$$c$$, unit cost,
-$$i$$, annual inventory holding cost rate,
-$$\lambda$$, annual demand or demand rate in the scope of year,
-$$Q$$, order quantity each order,
-$$\tau=0$$, no lead time for every order.
+$K$, setup cost,
+$c$, unit cost,
+$i$, annual inventory holding cost rate,
+$\lambda$, annual demand or demand rate in the scope of year,
+$Q$, order quantity each order,
+$\tau=0$, no lead time for every order.
 The policy is to place an order $$Q$$ every time when inventory hits zero.
 ![EOQ](https://i.loli.net/2019/11/23/oC3KMG9NaPQOJ2A.jpg)
 Total cost function (yearly),
