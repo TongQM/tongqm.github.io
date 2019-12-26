@@ -1,4 +1,13 @@
-#Inventory Control Subject to Known Demand 2
+---
+layout: post
+title:  "Inventory Control Subject to Known Demand 2"
+date:   2019-12-27
+author: "miao"
+mathjax:   true
+---
+
+
+# Inventory Control Subject to Known Demand 2
 
 飞机上把固定需求的库存管理模型写完吧。
 
