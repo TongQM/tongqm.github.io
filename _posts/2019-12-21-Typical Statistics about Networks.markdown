@@ -56,26 +56,27 @@ Intuitively, cliquishness can be measured by the number and size of cliques in t
 ##### Overall  Clustering
 Formula goes first,    
 
-$$Cl(g)=\frac{\Sigma_{i;j\ne i;k\ne j;k\ne i}g_{ij}g_{jk}g_{ik}}{\Sigma_{i;j\ne i;k\ne j}g_{ij}g_{jk}}.$$    
+$$Cl(g)=\frac{\sum_{i;j\ne i;k\ne j;k\ne i}g_{ij}g_{jk}g_{ik}}{\sum_{i;j\ne i;k\ne j}g_{ij}g_{jk}}.$$    
 
 It seems complicated but just evaluates the proportion of complete triple subnetworks over the number of triple networks with two links.
 ##### Average Clustering
 Before presenting average clustering of the network, individual clustering needs introducing,    
 
-$$\begin{aligned}Cl_i(g)&=\frac{\Sigma_{j\ne i;k\ne j;k\ne i}g_{ij}g_{jk}g_{ik}}{\Sigma_{j\ne i;k\ne j;k\ne i}g_{ij}g_{ik}}\\\\&=\frac{\#\{jk\in g|k\ne j,j,k\in N_i(g)\}}{d_i(g)[d_i(g)-1]/2}\end{aligned}$$     
+$$\begin{aligned}Cl_i(g)&=\frac{\sum_{j\ne i;k\ne j;k\ne i}g_{ij}g_{jk}g_{ik}}{\sum_{j\ne i;k\ne j;k\ne i}g_{ij}g_{ik}}\\
+\\&=\frac{\#\{jk\in g|k\ne j,j,k\in N_i(g)\}}{d_i(g)[d_i(g)-1]/2}\end{aligned}$$     
 
 Note that both the numerator and the denominator are the sum of relationships fixed on point i, compared with overall clustering.
 
 Based on individual clustering, average clustering can be derived as,  
 
-$$Cl^{avg}(g)=\frac{\Sigma_iCl_i(g)}{n},$$    
+$$Cl^{avg}(g)=\frac{\sum_iCl_i(g)}{n},$$    
 
 namely the algebraic average of individual clusterings. Actually, the difference between overall and average clustering lies on weights of individual clusterings. Average clustering just endows the same weight on every node while overall clustering allocates weights according to the number of triple relationships of each node.
 
 ##### Transitive Clustering
 For directed networks, the general approach is to ignore directions and calculate as common undirected networks. Besides, transitive clustering can also be used to appraise the cliquishness of a network,    
 
-$$Cl^{TT}(g)=\frac{\Sigma_{i;j\ne i;k\ne j}g_{ij}g_{jk}g_{ik}}{\Sigma_{i;j\ne i;k\ne j}g_{ij}g_{jk}}$$   
+$$Cl^{TT}(g)=\frac{\sum_{i;j\ne i;k\ne j}g_{ij}g_{jk}g_{ik}}{\sum_{i;j\ne i;k\ne j}g_{ij}g_{jk}}$$   
 
 Note the main difference between $Cl^{TT}(g)$ and $Cl(g), Cl^{avg}(g)$ is that i becomes the origin point in directed triple structures rather than the midpoint in undirected triple structures.
 
@@ -95,14 +96,14 @@ Closeness centrality manages to measure centrality from the perspective of dista
 ##### Average Distance
 Selfevidently,    
 
-$$Ce_i(g)=(n-1)/\Sigma_{j\ne i}l(i,j),$$    
+$$Ce_i(g)=(n-1)/\sum_{j\ne i}l(i,j),$$    
 
 Note that this centrality is the reciprocal of the average distance from node i to all the other nodes, which makes the statistic positively related with closeness.
 
 ##### Decay Centrality
 The idea is that each node from i should be endowed with a certain weight according its distance from i and i gets the centrality value by adding all the other nodes’ weights.    
 
-$$Ce_i(g)=\Sigma_{j\ne i}\delta^{l(i,j)}$$    
+$$Ce_i(g)=\sum_{j\ne i}\delta^{l(i,j)}$$    
 
 Given $\delta$, one can calculate the centrality with the length of geodesics from i to all the other nodes.
 When $\delta\to1$, the centrality basically measures how large the component where i lies is.    
@@ -118,7 +119,7 @@ $$Ce_i^B(g)=P_i(kj)/P(kj)$$
 
 Average it across pairs,     
 
-$$Ce_i^B(g)=\Sigma_{k\ne j;i\not\in\{k, j\}}\frac{P_i(kj)/P(kj)}{(n-1)(n-2)/2},$$    
+$$Ce_i^B(g)=\sum_{k\ne j;i\not\in\{k, j\}}\frac{P_i(kj)/P(kj)}{(n-1)(n-2)/2},$$    
 
 where the denominator is the number of pairs not including i.
 
@@ -126,7 +127,7 @@ where the denominator is the number of pairs not including i.
 Prestige means a node’s importance determined by how important its neighbors are.    
 An important idea is that the attention (importance) of neighbors is definite and needs to be allocated across its neighbors. Katz just uses the uniform distribution so that i’s prestige is exactly the sum of the prestige of i’s neighbors divided by their respective degrees,    
 
-$$P_i^K(g)=\Sigma_{j\ne i}g_{ij}\frac{P_i^K(g)}{d_i(g)}$$     
+$$P_i^K(g)=\sum_{j\ne i}g_{ij}\frac{P_i^K(g)}{d_i(g)}$$     
 
 Based on the ajacency matrix, we denote,    
 
@@ -160,7 +161,7 @@ With this understanding one can write the original centrality vector in,
 
 $$P^{K2}(g,a)=ag\mathbb{1}(1+ag+a^2g^2+...)$$    
 
-The final solution, $P^{K2}(g,a)=\frac{ag\mathbb{1}}{\mathbb{I}-ag}$.    
+The final solution, $P^{K2}(g,a)=\mathbb{I}-ag)^{-1}ag\mathbb{1}$.    
 PS: just the formula of the sum of geometric progression.
 ##### Bonacich Centrality
 Bonacich Centrality is derived from the second understanding of Katz Prestige-2 Centrality. It just starts with base values of $ag\mathbb{1}$ and then uses another weight $b$ to evaluate walks of length k to other nodes by a factor $b^k$ rather than $a^k$. Accordingly,     
