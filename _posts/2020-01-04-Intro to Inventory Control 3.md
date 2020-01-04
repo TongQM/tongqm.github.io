@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "Inventory Control Subject to Uncertain Demand——(Q,R) Model"
+date:   2020-01-04
+author: "miao"
+mathjax:  true
+---
+
+
+
 # Inventory Control Subject to Uncertain Demand 1
 ## Continuous Review Models
 Continuous review means that inventory is monitored continuously or the periods bewteen two consecutive reviews are short enough.
@@ -16,6 +26,7 @@ $x$, demand during lead time,
 $f(x)$, probability density of the demand during lead time.
 
 Hence the cost function,
+
 $$G(Q,R)=h(\frac{Q}{2}+R-\lambda\tau)+K\frac{\lambda}{Q}+\frac{pn(R)\lambda}{Q}$$
 
 where,
@@ -45,7 +56,7 @@ where $F(R)$ is the cumulative distribution function of $f(\cdot)$.
 
 Though we find the first order conditions, it seems impossible to calculate. Here we assume $x~N(\mu,\sigma)$ and use iteration to approach the optimal solution.    
 
-* Just start from EOQ (assume there's expected shortage equals zero) and use
+- Just start from EOQ (assume there's expected shortage equals zero) and use
 
 $$F(R)=1-\frac{hQ}{p\lambda}$$
 
@@ -62,12 +73,12 @@ to determine $R_1$. Here's one practical approach,
     Just let the intergal part be $L(z)$, which we can use in any case.             
     Because $F(R_1)=\Phi(r_1)$, we can determine $R_1=\sigma r_1+\mu$ by looking up cdf table of standard normal distribution before determining $r_1$ with $\Phi(r_1)$.
 
-* Then use $R_1$ and
+- Then use $R_1$ and
 
 $$Q_1=\sqrt{\frac{2\lambda[p n(R)+K]}{h}}$$
 
 to determine $Q_1$.
 
-* After that, use $Q_1$ to determine $R_2$ again...
+- After that, use $Q_1$ to determine $R_2$ again...
 
-* Generally we stop iteration when $Q_i$, $Q_{i+1}$ and $R_i$, $R_{i+1}$ are close enough (less than 1). But remember there's no guarantee of convergence!
+- Generally we stop iteration when $Q_i$, $Q_{i+1}$ and $R_i$, $R_{i+1}$ are close enough (less than 1). But remember there's no guarantee of convergence!
