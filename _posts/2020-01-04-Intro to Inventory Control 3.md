@@ -65,7 +65,7 @@ to determine $R_1$. Here's one practical approach,
 
 >For handy calculation, we can normalize $R$ with $r=\frac{R-\mu}{\sigma}$ and $x$ with $z=\frac{x-\mu}{\sigma}$ to use the standard normal distribution.
 
->$$n(R)=\int_{R}^{+\infty}[(\sigma z+\mu)-(\sigma r+\mu)]\f(x)d(\sigma z+\mu)$$
+>$$n(R)=\int_{R}^{+\infty}[(\sigma z+\mu)-(\sigma r+\mu)]f(x)d(\sigma z+\mu)$$
 
 >Recall that $\phi(z)=f(\sigma z+\mu)\cdot \sigma$ (probability formula under stict monotone transformations), we can get $f(x)=\phi(z)/{\sigma}$. Hence,
 
