@@ -47,11 +47,11 @@ $$\frac{\partial G(Q,R)}{\partial Q}=-\frac{K\lambda}{Q^2}+\frac{h}{2}-\frac{pn(
 
 $$Q^*=\sqrt{\frac{2\lambda[p n(R)+K]}{h}}$$
 
-$$\frac{\partial G(Q,R)}{R}=h+\frac{p\lambda}{Q}\cdot \frac{dn(R)}{R}=0$$
+$$\frac{\partial G(Q,R)}{\partial R}=h+\frac{p\lambda}{Q}\cdot \frac{dn(R)}{dR}=0$$
 
 $$h+\frac{p\lambda}{Q}[-Rf(R)+\int_{+\infty}^Rf(x)dx+Rf(R)]=0$$
 
-$$F(R)=1-\frac{hQ}{p\lambda}$$    
+$$F(R^*)=1-\frac{hQ}{p\lambda}$$    
 
 where $F(R)$ is the cumulative distribution function of $f(\cdot)$.
 
