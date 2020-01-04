@@ -57,7 +57,7 @@ where $F(R)$ is the cumulative distribution function of $f(\cdot)$.
 
 Though we find the first order conditions, it seems impossible to calculate. Here we assume $x\sim N(\mu,\sigma)$ and use iteration to approach the optimal solution.    
 
-- Just start from EOQ (assume there's expected shortage equals zero) and use
+- Just start from EOQ (assume there's no expected shortage) and use
 
 $$F(R)=1-\frac{hQ}{p\lambda}$$
 
