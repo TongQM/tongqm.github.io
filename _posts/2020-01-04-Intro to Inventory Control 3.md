@@ -63,16 +63,16 @@ $$F(R)=1-\frac{hQ}{p\lambda}$$
 
 to determine $R_1$. Here's one practical approach,   
 
-&emsp&emsp&emsp For handy calculation, we can normalize $R$ with $r=\frac{R-\mu}{\sigma}$ and $x$ with $z=\frac{x-\mu}{\sigma}$ to use the standard normal distribution.
+>For handy calculation, we can normalize $R$ with $r=\frac{R-\mu}{\sigma}$ and $x$ with $z=\frac{x-\mu}{\sigma}$ to use the standard normal distribution.
 
-&emsp&emsp&emsp $$n(R)=\int_{R}^{+\infty}[(\sigma z+\mu)-(\sigma r+\mu)]\f(x)d(\sigma z+\mu)$$
+>$$n(R)=\int_{R}^{+\infty}[(\sigma z+\mu)-(\sigma r+\mu)]\f(x)d(\sigma z+\mu)$$
 
-&emsp&emsp&emsp Recall that $\phi(z)=f(\sigma z+\mu)\cdot \sigma$ (probability formula under stict monotone transformations), we can get $f(x)=\phi(z)/{\sigma}$. Hence,
+>Recall that $\phi(z)=f(\sigma z+\mu)\cdot \sigma$ (probability formula under stict monotone transformations), we can get $f(x)=\phi(z)/{\sigma}$. Hence,
 
-&emsp&emsp&emsp $$n(R)=\sigma \int_{r}^{+\infty}(z-r)\phi(z)dz=\sigma L(z)$$
+>$$n(R)=\sigma \int_{r}^{+\infty}(z-r)\phi(z)dz=\sigma L(z)$$
 
-&emsp&emsp&emsp Just let the intergal part be $L(z)$, which we can use in any case.             
-&emsp&emsp&emsp Because $F(R_1)=\Phi(r_1)$, we can determine $R_1=\sigma r_1+\mu$ by looking up cdf table of standard normal &emsp&emsp&emsp distribution before determining $r_1$ with $\Phi(r_1)$.
+>Just let the intergal part be $L(z)$, which we can use in any case.             
+>Because $F(R_1)=\Phi(r_1)$, we can determine $R_1=\sigma r_1+\mu$ by looking up cdf table of standard normal distribution before determining $r_1$ with $\Phi(r_1)$.
 
 - Then use $R_1$ and
 
