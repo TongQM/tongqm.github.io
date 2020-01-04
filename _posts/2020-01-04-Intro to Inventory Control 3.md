@@ -17,12 +17,12 @@ Policy: reorder $Q$ every time when inventory hits $R$.
 ![(Q,R) model](https://i.loli.net/2020/01/03/mqj2cYdEXw1ybRF.png)
 
 #### Notations
-$Q$, order quantity,
-$R$, reorder point,
-$\tau$, lead time,
-$h=ic$, holding cost per unit per time unit,
-$p$, penalty cost per unit per time,
-$x$, demand during lead time,
+$Q$, order quantity,    
+$R$, reorder point,    
+$\tau$, lead time,     
+$h=ic$, holding cost per unit per time unit,    
+$p$, penalty cost per unit per time,    
+$x$, demand during lead time,     
 $f(x)$, probability density of the demand during lead time.
 
 Hence the cost function,
@@ -35,7 +35,7 @@ $$n(R)=\int_R^{+\infty}(x-R)f(x)dx$$
 
 serves as the expected shortage every order cycle.
 
-Though the demand is uncertain, it is still stable and thus the average demand rate is still $lambda$ during a long time period, in which case the average holding cost doesn't contain any uncertainty as the first term shows; the second term is the setup cost;
+Though the demand is uncertain, it is still stable and thus the average demand rate is still $\lambda$ during a long time period, in which case the average holding cost doesn't contain any uncertainty as the first term shows; the second term is the setup cost;
 the third term shows the expected shortage penalty cost for a year because there are $\lambda/Q$ times expected shortages in a year.       
 Our objective is still minimize yearly cost,
 
