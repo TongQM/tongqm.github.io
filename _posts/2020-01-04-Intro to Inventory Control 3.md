@@ -31,7 +31,7 @@ $$G(Q,R)=h(\frac{Q}{2}+R-\lambda\tau)+K\frac{\lambda}{Q}+\frac{pn(R)\lambda}{Q}$
 
 where,
 
-$$n(R)=\int_x^{+\infty}(x-R)f(x)dx$$
+$$n(R)=\int_R^{+\infty}(x-R)f(x)dx$$
 
 serves as the expected shortage every order cycle.
 
