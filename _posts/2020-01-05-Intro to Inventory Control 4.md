@@ -19,17 +19,17 @@ Last time we talked about (Q,R) model with penalty cost when shortage happens. B
 Type 1 service means the probability of not stocking out during lead time, denoted by $\alpha$.    
 Obviously, $\alpha$ is the probability that demand doesn't exceed $R$ during the lead time. We have,
 
-$$F(R)\le \alpha$$
+$$F(R)\ge \alpha$$
 
 Then our problem becomes,
 
 $$min\quad K\frac{\lambda}{Q}+h(\frac{Q}{2}+R-\lambda\tau)$$
 
-$$s.t.\quad F(R)\le \alpha$$
+$$s.t.\quad F(R)\ge \alpha$$
 
 Here we can only determine $R$ by letting $F(R)=\alpha$ because the derivative of $G(Q,R)$ on $R$ is a constant $h$; but we can still take derivative on $Q$ and get
 
-$Q^*=EOQ=\sqrt{\frac{2K\lambda}{h}}$
+$$Q^*=EOQ=\sqrt{\frac{2K\lambda}{h}}$$
 
 #### Type 2 Service Level
 Type 2 service means the proportion of demand filled from stock (fill rate), denoted by $\beta$.    
@@ -46,11 +46,11 @@ Then we have our model,
 
 $$min\quad K\frac{\lambda}{Q}+h(\frac{Q}{2}+R-\lambda \tau)$$
 
-$$s.t.\quad 1-\frac{n(R)}{Q}\le \beta$$
+$$s.t.\quad 1-\frac{n(R)}{Q}\ge \beta$$
 
 written in another form,
 
-$s.t. \quad n(R)\ge (1-\beta)Q$$$
+$$s.t. \quad n(R)\le (1-\beta)Q$$
 
 The optimization of type 2 is much more complex than type 1 because $Q$ has become endogenous when determining optimal $R$.    
 The intuition tells us that iteration is needed again in this case, but how can we get iteration functions?
