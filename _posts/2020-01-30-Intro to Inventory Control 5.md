@@ -14,11 +14,11 @@ Periodic review means that inventory is examined at constant intervals, when dec
 
 If we assume no lead time exists, there would be four different models showed as following table,
 
-|                  | Zero Setup Cost |                With Setup Cost               |   |   |
-|:----------------:|:---------------:|:--------------------------------------------:|---|---|
-|   Single Period  |    Newsvendor   | I don't know the official name of this model |   |   |
-| Infinite Horizon |  Order up to S  |                     (S,s)                    |   |   |
-|:----------------:|:---------------:|:--------------------------------------------:|---|---|
+|                  | Zero Setup Cost |                With Setup Cost               |
+|:----------------:|:---------------:|:--------------------------------------------:|
+|   Single Period  |    Newsvendor   | I don't know the official name of this model |
+| Infinite Horizon |  Order up to S  |                     (S,s)                    |
+|:----------------:|:---------------:|:--------------------------------------------:|
 
 where single period means that the inventory from last period is not applicable for the use in the following periods,     
 while infinite horizon means that the inheritance of inventory is allowed.
@@ -65,8 +65,8 @@ The policy is order up to $S$ at the beginning of every interval.
 The figure is the same as the previous Newsvendor model except that inventory left from previous periods can be used in the following periods.     
 
 #### Notations
-Two differences from Newsvendor model,
-$c_o$, overage cost becomes $h$, inventory holding cost per unit per period,
+Two differences from Newsvendor model,      
+$c_o$, overage cost becomes $h$, inventory holding cost per unit per period,      
 $c_u$, underage cost becomes $p$, penalty per unit short per period. (Actually in most cases they are the same.)
 
 #### Model
