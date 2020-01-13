@@ -44,7 +44,7 @@ It's easy to understand that the integral part in the first term denotes the exp
 
 Hence our model is,
 
-$$min_S\quad G(S)$$
+$$\underset{S}{min}\quad G(S)$$
 
 #### Solution
 Take derivative of $G(S)$ on $S$,
@@ -72,6 +72,8 @@ $c_u$, underage cost becomes $p$, penalty per unit short per period. (Actually i
 #### Model
 
 $$G(S)=h\int_0^S(S-x)f(x)dx+p\int_S^{+\infty}(x-S)f(x)dx$$
+
+$$\underset{S}{min}\quad G(S)$$
 
 #### Solution
 
