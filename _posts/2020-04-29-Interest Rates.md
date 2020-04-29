@@ -44,11 +44,23 @@ $$P=\frac{FV}{(1+i)^n}$$
 Annex Proof for Coupon Bond,
 
 When the face value equals the price,
+
+
 $$FV=P=\sum_{k=1}^n\frac{FV\cdot i_c}{(1+i)^k}+\frac{FV}{(1+i)^n}$$
+
+
 $$1-\frac{1}{(1+i)^n}=i_c\sum_{k=1}^n\frac{1}{(1+i)^k}$$
+
+
 $$\frac{(1+i)^n-1}{(1+i)^n}=i_c[\frac{1-\frac{1}{(1+i)^{n+1}}}{1-\frac{1}{1+i}}-1]$$
+
+
 $$(1+i)^n-1=i_c\frac{(1+i)^{n+1}-1-i\cdot (1+i)^n}{i}$$
+
+
 $$(1+i)^n-1=\frac{i_c}{i}\cdot [(1+i)^n-1]$$
+
+
 $$i_c=i$$
 
 
