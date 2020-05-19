@@ -9,7 +9,7 @@ mathjax:  true
 **This series of articles are based on *"The Economics of Money, Banking & Financial Markets, Ninth Edition"* by Mishkin.**
 
 
-# Fiancial System
+# Financial System
 
 ## Financial Markets
 
