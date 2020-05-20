@@ -4,7 +4,10 @@ title:    "Money, Banking & Financial Markets (1)"
 date:     2020-05-18
 author:   "miao"
 mathjax:  true
+mermaid:  true
 ---
+
+
 
 **This series of articles are based on *"The Economics of Money, Banking & Financial Markets, Ninth Edition"* by Mishkin.**
 
@@ -29,7 +32,7 @@ Why are financial markets important?
 A firm or an individual can obtain funds in a financial market in two ways.
 
 ```mermaid
-graph LR;
+graph TD;
     Security-->Debt;
     Security-->Equity;
 ```
@@ -52,9 +55,9 @@ Although the average person is more aware of the stock market than any other fin
 
 #### Primary and Secondary Markets 
 
-- A primary market is a financial market in which new issues of a security , such as a bond or a stock (both debt and securities), aresold to initial buyers by the corporation or government agency borrowing the the funds.
+- A **primary market** is a financial market in which new issues of a security , such as a bond or a stock (both debt and securities), aresold to initial buyers by the corporation or government agency borrowing the the funds.
 
-- A secondary market is a financial market in which securities that have been previously issued can be resold.
+- A **secondary market** is a financial market in which securities that have been previously issued can be resold.
 
 The primary markets for securities are not well known to the public because the selling of securities to initial buyers often takes place behind closed doors. Animporatnt financial institution that assist in the initial sale of securities in the primary market is the ***investment bank***. It does this by underwriting securities: It guarantees a price for a corporation's securities and then sells them to the public.
 
@@ -76,15 +79,15 @@ Secondary markets serve two important functions,
 *Brokers* are agents of investors who match buyers with sellers of securities; *dealers* link buyers and sellers by buying and selling securities at stated prices.
 
 
-- Exchanges, where buyers and sellers of securities (or their agents or brokers) meet in one central location to conduct trades. Examples: The New York Stock Exchange for stocks and the Chicago Board of Trade for commodities.
+- **Exchanges**, where buyers and sellers of securities (or their agents or brokers) meet in one central location to conduct trades. Examples: The New York Stock Exchange for stocks and the Chicago Board of Trade for commodities.
 
-- OTC market, where dealers at different locations who have an inventory of securities stand ready to buy and sell securities "over the counter" to anyone who comes to them and is willing to accept their prices. The U.S. government bond market is an example.
+- **OTC market**, where dealers at different locations who have an inventory of securities stand ready to buy and sell securities "over the counter" to anyone who comes to them and is willing to accept their prices. The U.S. government bond market is an example.
 
 #### Money and Capital Markets
 
-- The money market is a financial market in which only short-term ***debt*** instruments (generally those with original maturity of less than one year) are traded.
+- **The money market** is a financial market in which only short-term ***debt*** instruments (generally those with original maturity of less than one year) are traded.
 
-- The capital market is the market in which ***longer-term debt*** (generally those with original maturity of one year or greater) and ***equity*** instruments are traded.
+- **The capital market** is the market in which ***longer-term debt*** (generally those with original maturity of one year or greater) and ***equity*** instruments are traded.
 
 Corporations and banks actively use the money market to earn interest on surplus funds that they expect to have only temporarily. Capital market securities are often held by financial intermediaries such as insurance companies and pension funds.
 
@@ -92,31 +95,31 @@ Corporations and banks actively use the money market to earn interest on surplus
 
 #### Money Market Instruments
 
-- United States Treasury Bills (debt). Sold by government at a discount, pay a pre-set amount at maturity and have no nominal interest, held mainly by banks.
+- **United States Treasury Bills** (debt). Sold by government at a discount, pay a pre-set amount at maturity and have no nominal interest, held mainly by banks.
 
-- Negotiable Bank Certificates of Deposit (debt). Sold by a bank to depositors that pays annual interestof a given amount and at maturity pays back the original purchase price.
+- **Negotiable Bank Certificates of Deposit** (debt). Sold by a bank to depositors that pays annual interestof a given amount and at maturity pays back the original purchase price.
 
-- Commercial Paper (debt). Issued by large banks and well-known corporations such as Microsoft.
+- **Commercial Paper** (debt). Issued by large banks and well-known corporations such as Microsoft.
 
-- Repurchase Aggrements (debt, short-sterm loans). Usually with a maturity of less than two weeks for which Treasury bills serve as collateral. A large corpoation may have idle funds in its bank account, which it would like to lend for a week to the bank. The corporation uses idle funds to buy Treasury bills from a bank, which agrees to repurchase them the next week at a price slightly above the original purchase price.
+- **Repurchase Aggrements** (debt, short-sterm loans). Usually with a maturity of less than two weeks for which Treasury bills serve as collateral. A large corpoation may have idle funds in its bank account, which it would like to lend for a week to the bank. The corporation uses idle funds to buy Treasury bills from a bank, which agrees to repurchase them the next week at a price slightly above the original purchase price.
 
-- Federal (Fed) Funds (debt, overnight loans). Between banks of their deposits at the Federal Reserve because some banks may find it does not have enough deposits at the Fed to meet the amount required by regulators. It can then borrow these deposits from another bank, which transfers them to the borrowing bank using the Fed's wire transfer system.
+- **Federal (Fed) Funds** (debt, overnight loans). Between banks of their deposits at the Federal Reserve because some banks may find it does not have enough deposits at the Fed to meet the amount required by regulators. It can then borrow these deposits from another bank, which transfers them to the borrowing bank using the Fed's wire transfer system.
 
 #### Capital Market Instruments
 
-- Stocks (equity) are equity calims on the net income and assets of a corporation. Compared with the huge value in the market, the amount of new stock issues in any given year is typically quite small.
+- **Stocks** (equity) are equity calims on the net income and assets of a corporation. Compared with the huge value in the market, the amount of new stock issues in any given year is typically quite small.
 
-- Mortgages (debt) are loans to households or firms to purchase housing, land, or other real structures where the structure or land itself serves as collateral for the loans. The mortgage market is the largest debt market in the U.S. Savings and loan associations, mutual savings banks and commercial banks have been the primary lenders in the residential mortgage markets.
+- **Mortgages** (debt) are loans to households or firms to purchase housing, land, or other real structures where the structure or land itself serves as collateral for the loans. The mortgage market is the largest debt market in the U.S. Savings and loan associations, mutual savings banks and commercial banks have been the primary lenders in the residential mortgage markets.
 
-- Corporate Bonds (debt) are issued by corporations with very strong credit ratings. The corporate bond sends the holder an interest payment twice a year and pays off the face value when the bond matures. The principal buyers are life insurance companies, pension funds and households.
+- **Corporate Bonds** (debt) are issued by corporations with very strong credit ratings. The corporate bond sends the holder an interest payment twice a year and pays off the face value when the bond matures. The principal buyers are life insurance companies, pension funds and households.
 
-- U.S. Government Securities (debt) are issued by the U.S. Treasury to finance the deficits of the federal government; held by the Federal Reserve, banks, households and foreigners.
+- **U.S. Government Securities** (debt) are issued by the U.S. Treasury to finance the deficits of the federal government; held by the Federal Reserve, banks, households and foreigners.
 
-- U.S. Government Agency Securities (debt) are issued by various government agencies to finance such items as mortgages, farm loans or power generating equipment. Held by similar parties above.
+- **U.S. Government Agency Securities** (debt) are issued by various government agencies to finance such items as mortgages, farm loans or power generating equipment. Held by similar parties above.
 
-- State and Local Government Bonds (debt), also called municipal bonds, are issued by state and loocal governments to finance expenditures on schools, roads and other programs. Interest payments are exempt from federal income tax. Commercial banks, wealthy individuals and insurance companies are the biggest buyers of these securities.
+- **State and Local Government Bonds** (debt), also called municipal bonds, are issued by state and loocal governments to finance expenditures on schools, roads and other programs. Interest payments are exempt from federal income tax. Commercial banks, wealthy individuals and insurance companies are the biggest buyers of these securities.
 
-- Comsumer and Bank Commercial Loans (debt). Loans from banks or finance companies to consumers and businesses.
+- **Comsumer and Bank Commercial Loans** (debt). Loans from banks or finance companies to consumers and businesses.
 
 
 ## Financial Intermediaries
