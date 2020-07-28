@@ -18,7 +18,7 @@ $\lambda$, annual demand or demand rate in the scope of year,
 $Q$, order quantity each order,    
 $\tau=0$, no lead time for every order.
 
-The policy is to place an order $$Q$$ every time when inventory hits zero.
+The policy is to place an order $Q$ every time when inventory hits zero.
 ![EOQ](https://i.loli.net/2019/11/23/oC3KMG9NaPQOJ2A.jpg)
 
 Total cost function (yearly),  
@@ -61,7 +61,8 @@ $$G(Q)=K\frac{\lambda}{Q}+ic\frac{H}{2}+(c\lambda)$$
 
 Although we don’t know $H$, the production and the consumption should be equal,   
 
-$$PT_1=\lambda T=Q$$ $$T_1=\frac{Q}{P}$$   
+$$PT_1=\lambda T=Q$$   
+$$T_1=\frac{Q}{P}$$    
 
 Thus,   
 
