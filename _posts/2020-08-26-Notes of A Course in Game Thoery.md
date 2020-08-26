@@ -98,7 +98,7 @@ To model decision-making under uncertainty, almost all game theory uses the theo
 * for any profile $x=(x_j)_{j\in N}$ and any $i\in N$, let $x_{-i}$ be the list $(x_j)_{j\in N\backslash \{i\}}$ of elements of the profile $x$ for all players except $i$;
 * similarly if $X_i$ is a set for each $i\in N$ then $X_{-i}== \times_{j\in N\backslash \{i\} }X_j$;
 * a preference realtion $\succeq$ on $A$ is *continuous* if $a\succeq b$ whenever there are sequences $(a^k)_k$ and $(b^k)_k$ in $A$ that converge to $a$ and $b$ respectively for which $a^k\succeq b^k$ for all $k$;
-* $|X|$ denotes the number of members of $|X|$;
+* $\mid X\mid$ denotes the number of members of $\mid X\mid$;
 * a *partition* of $X$ is a collection of disjoint subsets of $X$ whose union is $X$;
 * $x\in X$ is *Pareto efficient* if there is NO $y\in X$ for which $y_i>x_i$ for all $i\in N$;
 * $x\in X$ is *strongly Pareto efficient* if there is NO $y\in X$ for which $y_i\ge x_i$ for all $i\in N$ and $y_i>x_i$ for some $i\in N$.
