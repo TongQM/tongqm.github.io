@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Notes of 'A Course in Game Theory' (1)"
+title:    "Notes of A Course in Game Theory (1)"
 date:     2020-08-25
 author:   "miao"
 mathjax:  true
