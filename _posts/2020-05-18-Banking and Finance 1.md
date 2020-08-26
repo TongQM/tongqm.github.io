@@ -70,9 +70,9 @@ When an individual buys a security in the secondary market, the person who has s
 
 Secondary markets serve two important functions,
 
-- They make it easier and quicker to sell these financial instruments to raise cash——they make the financial instruments more liquid and desirable.
+- They make it easier and quicker to sell these financial instruments to raise cashâ€”â€”they make the financial instruments more liquid and desirable.
 
-- They determine the price of the security that the issuing firm sells in the primary market——the investors who buy securities in the primary market will pay the issuing corporation ***no more than the price they think the secondary market will set for this security to make profits.***
+- They determine the price of the security that the issuing firm sells in the primary marketâ€”â€”the investors who buy securities in the primary market will pay the issuing corporation ***no more than the price they think the secondary market will set for this security to make profits.***
 
 #### Exchanges and Over-the-Counter Markets
 
