@@ -16,7 +16,7 @@ Trivial to understand, here three popular distributions are mentioned.
 
 ##### Poisson
 
-$$P(d=k)=\frac{\lambda^ke^{-\lambda}}{k!},$$  
+$P(d=k)=\frac{\lambda^ke^{-\lambda}}{k!},$  
 
 which is usually considered as the approximation of binomial distribution especially when n is large and p is a small.
 ##### Regular
