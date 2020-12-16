@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Notes of A Course in Game Theory 1"
+layout:   post
+title:   "Notes of A Course in Game Theory 1"
 date:   2020-08-26
-author: "miao"
+author:  "miao"
 mathjax:   true
 ---
 
@@ -35,14 +35,24 @@ According to OR, there are four groups of game theoretic models mentioned in thi
 #### Dimensions
 
 * Noncooperative and Cooperative Games
-   Noncooperative games: The sets of possible actions of individual players are primitives. (strategic games, extensive games with perfect information, extensive games with imperfect information)     
+
+
+   Noncooperative games: The sets of possible actions of individual players are primitives. (strategic games, extensive games with perfect information, extensive games with imperfect information)   
+
+
    Cooperative games: The sets of possible joint actions of groups of players are primitives (coalitional games).    
 
-* Strategic Games and Extensive Games
-  A strategic game is a model of a situation in which each player chooses his plan of action once and for all, and all players’ decisions are made simultaneously.     
+* Strategic Games and Extensive Games     
+
+
+  A strategic game is a model of a situation in which each player chooses his plan of action once and for all, and all players’ decisions are made simultaneously. 
+
+
   An extensive game speciﬁes the possible orders of events; each player can consider his plan of action not only at the beginning of the game but also whenever he has to make a decision.
 
 * Perfect and Imperfect Information
+
+
   In games with perfect information the players are fully informed about each others’ moves while with imperfect information they may be imperfectly informed.
 
 
@@ -54,10 +64,11 @@ According to OR, there are four groups of game theoretic models mentioned in thi
 Each decision-maker is “rational” in the sense that he is aware of his alternatives, forms expectations about any unknowns, has clear preferences, and chooses his action deliberately after some process of optimization.
 
 
-*  A set $A$ of actions from which the decision-maker makes a choice. 
-*  A set $C$ of possible consequences of these actions.
-*  A consequence function $g:A \to C$ that associates a consequence with each action. 
-*  A preference relation (a complete transitive reﬂexive binary relation) $\succeq$ on the set $C$.
+*  A set $A$ of actions from which the decision-maker makes a choice.    
+*  A set $C$ of possible consequences of these actions.    
+*  A consequence function $g:A \to C$ that associates a consequence with each action.     
+*  A preference relation (a complete transitive reﬂexive binary relation) $\succeq$ on the set $C$.     
+
 
 Sometimes the decision-maker’s preferences are speciﬁed by giving a *utility function* $U:C \to \mathbb{R}$, which deﬁnes a preference relation $\succeq$ by the condition $x \succeq y$ if and only if $U(x)≥U(y)$.
 
@@ -65,7 +76,7 @@ Sometimes the decision-maker’s preferences are speciﬁed by giving a *utility
 **With Imperfect Information,**
 
 
- Individuals often have to make decisions under conditions of uncertainty. The players may be,    
+ Individuals often have to make decisions under conditions of uncertainty. The players may be,       
  * uncertain about the objective parameters of the environment;
  * imperfectly informed about events that happen in the game;
  * uncertain about actions of the other players that are not deterministic;
@@ -95,7 +106,7 @@ To model decision-making under uncertainty, almost all game theory uses the theo
 * a function $f: \mathbb{R}\to \mathbb{R}$ is concave if $f(\alpha x+(1-\alpha)x')\ge \alpha f(x)+(1-\alpha)f(x')$ for all $x\in \mathbb{R}$, all $x'\in \mathbb{R}$ and all $\alpha \in [0,1]$;
 * for a function $f: X\to \mathbb{R}$, denote by $\bold{argmax}_{x\in X}f(x)$ the set of maximizers of $f$;
 * refer to a collection of values of some variable, one for each player, as a *profile*, denoted by $(x_i)_{i\in N}$, where $N$ is the set of players;
-* for any profile $x=(x_j)_{j\in N}$ and any $i\in N$, let $x_{-i}$ be the list $(x_j)_{j\in N\backslash \{i\}}$ of elements of the profile $x$ for all players except $i$;
+* for any profile $x=(x_j)_{j\in N}$ and any $i\in N$, let $x_{-i}$ be the list $(x_j)_{j\in N\backslash \{i\} }$ of elements of the profile $x$ for all players except $i$;
 * similarly if $X_i$ is a set for each $i\in N$ then $X_{-i}== \times_{j\in N\backslash \{i\} }X_j$;
 * a preference realtion $\succeq$ on $A$ is *continuous* if $a\succeq b$ whenever there are sequences $(a^k)_k$ and $(b^k)_k$ in $A$ that converge to $a$ and $b$ respectively for which $a^k\succeq b^k$ for all $k$;
 * $\mid X\mid$ denotes the number of members of $\mid X\mid$;
