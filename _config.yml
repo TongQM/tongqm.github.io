@@ -5,7 +5,7 @@ header-img: img/home.jpg
 email: xjtumyd@gmail.com
 description: "Econometrics, Operation Research, Industrial Engineering, Finance"
 keyword: "miao, IEOR, Econ"
-url: "https://tongqm.github.io"            # your host, for absolute URL
+url: "https://tongqm.github.io"          # your host, for absolute URL
 baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
