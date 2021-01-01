@@ -110,7 +110,7 @@ The process left is much simpler, just plug different $K’_i$ and corresponding
 
 $$EOQ_i=\sqrt{\frac{2K’_i\lambda}{ic_i}}$$    
 
-to get different $Q\*_i$, then plug $Q^\*_i$ into the cost function, 
+to get different $Q^{*}_i$, then plug $Q^{*}_i$ into the cost function, 
 
 $$G(Q)=K’_i\frac{\lambda}{Q^*_i}+ic_i\frac{Q^*_i}{2}+c_i\lambda$$    
 
