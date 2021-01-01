@@ -31,7 +31,8 @@ Third term—unit cost, here we assume that all demands are satisfied and thus t
 To minimize total cost,    
 
 
-$$min\quad G(Q)=K\frac{\lambda}{Q}+ic\frac{Q}{2}$$      
+$$min\quad G(Q)=K\frac{\lambda}{Q}+ic\frac{Q}{2}$$    
+  
 First order condition,   
 
 $$G’(Q)=-K\frac{\lambda}{Q^2}+\frac{ic}{2}=0$$   
