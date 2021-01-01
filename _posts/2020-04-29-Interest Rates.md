@@ -33,6 +33,7 @@ $$LV=\sum_{k=1}^n\frac{FP}{(1+i)^k}$$
 #### Coupon Bond
 
 $$P=\sum_{k=1}^n\frac{C}{(1+i)^k}+\frac{FV}{(1+i)^n}$$
+
 There are three points needing to be mentioned about coupon bond,
 
 + When the coupon bond is priced at its face value, the yield to maturity equals the coupon rate. (Proof is shown below.)
