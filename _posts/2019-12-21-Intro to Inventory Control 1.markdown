@@ -23,7 +23,7 @@ The policy is to place an order $Q$ every time when inventory hits zero.
 
 Total cost function (yearly),  
 
-\[G(Q)=K\frac{\lambda}{Q}+ic\frac{Q}{2}+(c\lambda)\]      
+$$G(Q)=K\frac{\lambda}{Q}+ic\frac{Q}{2}+(c\lambda)$$      
 
 First term—setup cost, for every year’s demand we need to order $\lambda/Q$ times, each setup costs $K$.    
 Second term—holding cost, average inventory is $Q/2$ because demand is constant and linear on time. Multiplying it by annual rate and unit cost can we get the yearly holding cost.    
@@ -31,10 +31,10 @@ Third term—unit cost, here we assume that all demands are satisfied and thus t
 To minimize total cost,    
 
 
-\[min\quad G(Q)=K\frac{\lambda}{Q}+ic\frac{Q}{2}\]      
+$$min\quad G(Q)=K\frac{\lambda}{Q}+ic\frac{Q}{2}$$      
 First order condition,   
 
-\[G’(Q)=-K\frac{\lambda}{Q^2}+\frac{ic}{2}=0\]   
+$$G’(Q)=-K\frac{\lambda}{Q^2}+\frac{ic}{2}=0$$   
 
 Solution,   
 
