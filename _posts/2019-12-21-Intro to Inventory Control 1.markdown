@@ -77,4 +77,3 @@ First order condition,
 $$G’(Q)=-K\frac{\lambda}{Q^2}+\frac{ic}{2}(1-\frac{\lambda}{P})=0$$    
 
 $$Q^*=\sqrt{\frac{2K\lambda}{ic(1-\lambda/P)}}$$
-

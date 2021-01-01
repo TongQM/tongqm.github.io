@@ -1,12 +1,12 @@
 # Site settings
-title: miao's Blog
-SEOTitle: miao的博客 | miao Blog
+title: Eddy‘s Blog
+SEOTitle: Eddy的博客 | Eddy's Blog
 header-img: img/home.jpg
 email: xjtumyd@gmail.com
 description: "Econometrics, Operation Research, Industrial Engineering, Finance"
 keyword: "miao, IEOR, Econ"
-url: "https://tongqm.github.io" # your host, for absolute URL
-baseurl: "/" # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://tongqm.github.io"            # your host, for absolute URL
+baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -20,23 +20,19 @@ twitter_username: miao
 #facebook_username:  Eddy Miau
 #linkedin_username:  Yidi-Miao-idxxxx
 
+
+
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude:
-    [
-        "less",
-        "node_modules",
-        "Gruntfile.js",
-        "package.json",
-        "README.md",
-        "README.zh.md",
-    ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+#timezone: CN  
+
+
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -44,19 +40,23 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
 
+
+
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-    input: GFM # use Github Flavored Markdown !important
-    syntax_highlighter_opts:
-        span:
-            line_numbers: false
-        block:
-            line_numbers: true
-            start_line: 1
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
 
 # Disqus settings
 disqus_username: Yidi
@@ -64,29 +64,41 @@ disqus_username: Yidi
 # Netease settings
 netease_comment: false
 
+
+
 # Analytics settings
-# Baidu Analytics
+# Baidu Analytics 
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 ga_domain: huangxuan.me
 
+
+
 # Sidebar settings
-sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/miao.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "风物长宜放眼量"
+sidebar-avatar: /img/miao.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
 
 # Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+
+
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
+
+
 
 # Friends
 friends: [
