@@ -23,12 +23,15 @@ mathjax:  true
 Yield to maturity is the interest rate that equates the present value of cash flow payments received from a debt instrument with its value today.
 
 #### Simple Loan
+
 $$PV=\frac{CF}{(1+i)^n}$$
 
 #### Fixed-Payment Loan
+
 $$LV=\sum_{k=1}^n\frac{FP}{(1+i)^k}$$
 
 #### Coupon Bond
+
 $$P=\sum_{k=1}^n\frac{C}{(1+i)^k}+\frac{FV}{(1+i)^n}$$
 There are three points needing to be mentioned about coupon bond,
 
@@ -37,8 +40,11 @@ There are three points needing to be mentioned about coupon bond,
 + The yield to maturity is greater than the coupon rate when the bond price is below its face value.
 
 #### Discount Bond
+
 $$P=\frac{FV}{(1+i)}$$
+
 when the maturity is one year. More generally,
+
 $$P=\frac{FV}{(1+i)^n}$$
 
 Annex Proof for Coupon Bond,
