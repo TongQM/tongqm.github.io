@@ -62,7 +62,8 @@ $$G(Q)=K\frac{\lambda}{Q}+ic\frac{H}{2}+(c\lambda)$$
 Although we don’t know $H$, the production and the consumption should be equal,      
 
 $$PT_1=\lambda T=Q$$    
-  
+
+
 $$T_1=\frac{Q}{P}$$    
 
 Thus,   
