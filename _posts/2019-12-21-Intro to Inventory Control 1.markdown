@@ -3,7 +3,7 @@ layout: post
 title:  "Inventory Control Subject to Known Demand 1"
 date:   2019-12-21
 author: "miao"
-MathJax:   true
+mathjax:   true
 ---
 
 
