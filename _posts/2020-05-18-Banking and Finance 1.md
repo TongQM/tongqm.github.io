@@ -176,7 +176,7 @@ Financial-Intermediaries-->Investment-Intermediaries;
 Depository institutions (=banks) are financial intermediaries that accept deposits from individuals and institutions and make loans.These institutions include *commercial banks* and the so-called *thrift institutions*.
 
 ```mermaid
-graph TD;
+graph TB;
 Depository-Institutions-->Commercial-Banks;
 Depository-Institutions-->Thrift-Institutions;
 Thrift-Institutions-->Savings-and-loan-associations;
